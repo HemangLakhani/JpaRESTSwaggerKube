@@ -49,7 +49,7 @@
 		</dependency>
 		
 		<!-- Google cloud socket factory -->
-		<dependency>
+		<!--  <dependency>
     		<groupId>com.google.cloud.sql</groupId>
     		<artifactId>postgres-socket-factory</artifactId>
     		<version>1.0.12</version>
@@ -65,7 +65,7 @@
   			<groupId>javax.servlet</groupId>
   			<artifactId>javax.servlet-api</artifactId>
   			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		<!-- Swagger -->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -106,14 +106,14 @@
 			</plugin>
 			
 			<!-- Google Cloud App Engine plugin -->
-			<plugin>
+			<!--  <plugin>
    				<groupId>com.google.appengine</groupId>
    				<artifactId>appengine-maven-plugin</artifactId>
    				<version>1.9.74</version>
    				<configuration>
    					<version>1</version>
    					<appId>rest-app-240820</appId>
-   				</configuration>
+   				</configuration>-->
    				<!-- <configuration>
    					<version>01</version>
      				<appId>rest-app-240820</appId>
@@ -126,7 +126,7 @@
       					<param>src/main/appengine/app.yaml</param>
      			</deployables>
      			</configuration>-->
-			</plugin>
+			<!--  </plugin>-->
 		</plugins>
 	</build>
 
